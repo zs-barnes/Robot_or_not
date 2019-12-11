@@ -9,7 +9,7 @@ We want to find the model that best classifies a user based on their online beha
 ## Process
 Our data is heavily imbalanced, with 94.9% humans and 5.1% robots. To account for this imbalance with used the SMOTE method. We feature engineered and identified features that helped distinguish between humans and robots, based on the mean of their distributions. We created an Sklearn pipeline to impute values, and test out the performance of different models. 
 
-For our metric we evaluted the models using weighted F1 score, but we also looked at AUC PR. 
+For our metric we evaluted the models using weighted F1 score, but we also looked at AUC ROC. 
 
 After determining the best model, we perfomed a Random search for hyperparameters.
 
