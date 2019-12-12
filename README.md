@@ -15,6 +15,6 @@ After determining the best model, we perfomed a Random search for hyperparameter
 
 ## Summary
 
-Our best performing model was the Random Forest Classifier, with our final weighted F1 score as 0.956 on the validation set. 
+Our best performing model was the Random Forest Classifier, with our final weighted F1 score as ~0.95 on the validation set. 
 
 One significant aspect about our data was that is was not robust; i.e. there were many codependent features. This was found empirically using the Random Forest feature importance. To alleviate this effect, we performed PCA to decorrelate our features. This did not significantly imporve our model performace, however, it could be a useful technique for future exploration. 
